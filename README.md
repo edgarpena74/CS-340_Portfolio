@@ -185,6 +185,14 @@ All dashboard components were tested within JupyterLab using the built-in Jupyte
 
 * Optimize MongoDB queries for performance through indexing and caching.
 
-## Conclusion
+## Reflection
 
-This project brought together data management, visualization, and interactivity in one working dashboard. Using MongoDB made it easy to organize and access the data, while Dash provided the tools to build an interface that users can interact with. The result is a functional dashboard that follows the Model-View-Controller structure and helps identify dogs that fit different rescue training categories. Going forward, I plan to improve the overall look of the dashboard, make the filters more flexible, and continue optimizing performance.
+##### How do you write programs that are maintainable, readable, and adaptable?
+I focus on writing modular and well-structured code so it’s easy to maintain and build upon. The CRUD Python module I built in Project One made working on the dashboard in Project Two much smoother, as all database operations were handled in one place. That kept the dashboard code cleaner and easier to manage. It also made it simple to make changes without breaking anything else. In the future, I could reuse this CRUD module for other projects that use MongoDB, like a new dashboard or a small web app—just by updating the queries or connection details.
+
+##### How do you approach a problem as a computer scientist?
+When I’m faced with a new problem, I like to break it down into smaller parts and determine which data, features, and outcomes are needed. For the Grazioso Salvare project, I started by getting familiar with the MongoDB data, then planned how to show that information clearly in the Dash dashboard. My goal was to make sure the user interface and the database worked together smoothly. This project felt more hands-on and client-focused than earlier ones, where I really had to think about how someone would use the tool. In the future, I’d approach similar projects the same way by defining what users need first and then designing the database and visuals to match.
+
+##### What do computer scientists do, and why does it matter?
+Computer scientists use technology to solve real-world problems and help people make better use of data. In this project, I built a dashboard that helps Grazioso Salvare find animals suited for search-and-rescue training. That kind of tool makes it easier for the organization to make quick, informed decisions based on real data. It’s rewarding to see how something you build can turn complex data into insights that actually help people and animals. Projects like this show how computer science can make a real difference by combining data, design, and problem-solving to support meaningful work.
+
