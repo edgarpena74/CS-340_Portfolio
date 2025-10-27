@@ -101,11 +101,13 @@ This project implements an interactive data visualization dashboard for Grazioso
 *  **Interactive Layout and Branding**
 
 The dashboard opens with the official Grazioso Salvare logo and project title displayed at the top, followed by the creator’s name for identification and documentation purposes.
-![Logo](image.jpg)
+![Logo](README_Images/Picture1.png)
 
 *  **Rescue Type Filters**
 
 Radio buttons allow users to select between different rescue categories:
+
+![Logo](README_Images/Picture2.png)
 
 *  **Water Rescue** – filters Labrador Retrievers and similar breeds.
 
@@ -114,20 +116,32 @@ Radio buttons allow users to select between different rescue categories:
 *  **Disaster or Individual Tracking** – filters Beagles, Bloodhounds, and similar tracking breeds.
 
 *  **Reset (All)** – restores the full dataset for browsing. These filters update the data table, breed chart, and map dynamically.
+  
+   ![Logo](README_Images/Picture3.png)
 
 *  **Customizable Data Table**
 
 The interactive data table displays dogs matching the selected filter.
 
 *  Users can sort by any column, such as age ascending or descending.
+  
+  ![Logo](README_Images/Picture4.png)  
+  ![Logo](README_Images/Picture5.png)
 
 *  The Toggle Columns feature allows customization of the table view.
+  
+  ![Logo](README_Images/Picture6.png)
+  ![Logo](README_Images/Picture7.png)
 
 *  Key columns include _Name_, _Age_, _Breed_, _Sex_, _Outcome_, _Animal ID_, _Latitude_, and _Longitude_.
 
 *  Hidden fields like rec_num or color can be made visible for deeper analysis when needed. Below shows the breed category being toggled on and off.
+  
+![Logo](README_Images/Picture8.png)
 
 On
+
+![Logo](README_Images/Picture9.png)
 
 Off
 
@@ -136,14 +150,22 @@ Off
 A dynamic pie chart displays breed proportions based on the current filter.
 
 *  When **Water Rescue** is selected, the chart shows 100% Labrador Retrievers.
+  
+![Logo](README_Images/Picture10.png)
 
 *  When **Mountain/Wilderness Rescue** is selected, the chart displays a mix of German Shepherds, Border Collies, and Australian Shepherds.
+  
+![Logo](README_Images/Picture11.png)
 
 *  When **Disaster or Individual Tracking** is selected, Beagles and German Shepherds appear as the top breeds.
+  
+![Logo](README_Images/Picture12.png)
 
 * **Geo-Location Mapping**
 
 The map component automatically updates when a dog is selected in the table, marking its latitude and longitude coordinates. Each rescue category re-centers the map around Austin, Texas, visually showing where animals were adopted, transferred, or returned. The image below shows the category “Water Rescue” chosen and the dog “Chloe” selected. The map pin automatically updated with the location for this specific animal.
+
+![Logo](README_Images/Picture13.png)
 
 ## Testing and Verification
 
